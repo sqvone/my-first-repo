@@ -16,7 +16,7 @@
 | id | INT | Да | PK |
 | Name | VARCHAR(50) | Да |  |
 | Description | VARCHAR(300) | Да |  |
-| Name | VARCHAR(50) | Да | |
+| Photo | VARCHAR(50) | Да | |
 
 ## Сущность: Заявка
 **Назначение:** Хранение информации о заявке
@@ -25,10 +25,11 @@
 |---------|-----|-------|----------|
 | id | INT | Да | PK |
 | Name | VARCHAR(50) | Да | |
-| User | VARCHAR(50) | Да | |
-| Time | VARCHAR(9) | Да | |
-| Room | VARCHAR(50) | Да | |
-| Review | VARCHAR(300) | Да | |
+| User_ID | INT | Да | |
+| Date | VARCHAR(9) | Да | |
+| Room_ID | INT | Да | |
+| Status | VARCHAR(300) | Да | |
+| Pay | VARCHAR(300) | Да | |
 
 
 ## Сущность: Отзыв
